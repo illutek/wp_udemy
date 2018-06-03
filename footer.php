@@ -1,9 +1,9 @@
-<footer>
-      <div class="container">
-        <p>&copy <?php the_date('Y'); ?> - <?php bloginfo( 'name' ); ?>
-      </div>
-    </footer>
+        <footer>
+            <div class="container">
+            <p>&copy <?php the_date('Y'); ?> - <?php bloginfo( 'name' ); ?>
+            </div>
+        </footer>
 
-  <?php wp_footer(); ?>
-</body>
+        <?php wp_footer(); ?>
+    </body>
 </html>
