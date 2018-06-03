@@ -23,7 +23,12 @@ a {
 .container {
     width: 1050px;
     margin: 0 auto;
-    overflow: auto;
+    overflow: auto;    
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
 }
 
 header {
@@ -72,6 +77,11 @@ article.post a.button {
     color: white;
 }
 
+.meta a {
+    color: white;
+    text-decoration: none;
+}
+
 .post-thumbnail img {
   width: 100%;
   height: auto;
@@ -97,5 +107,33 @@ article.post a.button {
 .main-nav li a {
     color: white;
     text-decoration: none;
+}
+
+.sidebar {
+   margin-left: 20px;
+}
+
+.side-widget {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.side-widget ul {
+    margin: 0;
+    padding: 0;
+}
+
+.side-widget li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 2.2em;
+  border-bottom: dotted 1px #ccc;
+}
+
+.side-widget a {
+  text-decoration: none;
 }
 
