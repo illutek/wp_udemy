@@ -2,6 +2,17 @@
   function simple_theme_setup() {
     // Featured Image Support
     add_theme_support( 'post-thumbnails' );
+
+    // Menu
+    register_nav_menus(array(
+        /**
+         * 'primary' => 'Primary Menu'
+         * __('') = translation function
+         * vergelijkbaar in twig filter |t
+         */
+        'primary' => __('Primary Menu')
+
+    ));
   }
 
 add_action( 'after_setup_theme', 'simple_theme_setup' );

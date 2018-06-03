@@ -76,3 +76,26 @@ article.post a.button {
   width: 100%;
   height: auto;
 }
+
+.main-nav {
+    background: #000;
+    color: white;
+    padding: 10px;
+}
+
+.main-nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav li {
+    list-style: none;
+    padding-right: 15px;
+}
+
+.main-nav li a {
+    color: white;
+    text-decoration: none;
+}
+
